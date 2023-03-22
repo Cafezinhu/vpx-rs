@@ -218,7 +218,7 @@ impl VP9Encoder {
                 frame.t.pts.unwrap(),
                 1,
                 0,
-                c_ulong::from(VPX_DL_GOOD_QUALITY),
+                VPX_DL_GOOD_QUALITY,
             )
         };
 
@@ -245,7 +245,7 @@ impl VP9Encoder {
                 0,
                 1,
                 0,
-                c_ulong::from(VPX_DL_GOOD_QUALITY),
+                VPX_DL_GOOD_QUALITY,
             )
         };
 
